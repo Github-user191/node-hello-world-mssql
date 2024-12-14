@@ -1,5 +1,6 @@
 const express = require('express');
 const sql = require('mssql');
+//require('dotenv').config(); // Load environment variables from .env file
 
 // Create an instance of Express
 const app = express();
